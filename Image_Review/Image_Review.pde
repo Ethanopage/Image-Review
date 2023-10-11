@@ -4,7 +4,8 @@ float backgroundX, backgroundY, backgroundWidth, backgroundHeight;
 float obiX, obiY, obiWidth, obiHeight;
 float darthX, darthY, darthWidth, darthHeight;
 Pimage backgroundPic, obiPic, darthPic;
-Boolean nightmode, brightnessControl; //Reminder tint()
+int backgroundPicWidth, backgroundPicHeight, obiPicWidth, obiPicHeight, darth
+boolean nightmode, brightnessControl; //Reminder tint()
 int brightnessNumber=128; //Range: 1-255
 //
 void setup()
